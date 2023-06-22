@@ -1,12 +1,13 @@
 .projects__container {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    animation: fadeEffect 1s;
 }
 
 .projects__fullstack .projects__ai .projects__frontend {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     /* justify-content: center;
     align-items: center; */
     gap: 2.5rem;
@@ -35,7 +36,8 @@
 
 .closed {
     display: none;
-    size: 0;
+    width: 0;
+    height: 0;
 }
 
 .projects__item {
@@ -44,7 +46,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .projects__item:hover {
