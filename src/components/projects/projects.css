@@ -1,13 +1,41 @@
 .projects__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     gap: 2.5rem;
 }
 
 .projects__fullstack .projects__ai .projects__frontend {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    /* justify-content: center;
+    align-items: center; */
     gap: 2.5rem;
+    animation: fadeEffect 1s;
+}
+
+.projects__tabchange {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    background: transparent;
+    margin-bottom: 2rem;
+}
+
+.tablinks {
+    color: var(--color-white);
+    background: transparent;
+    font-size: large;
+    transition: var(--transition);
+}
+
+.tablinks:hover {
+    cursor: pointer;
+}
+
+.closed {
+    display: none;
+    size: 0;
 }
 
 .projects__item {
@@ -16,6 +44,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin: 2rem;
 }
 
 .projects__item:hover {
@@ -36,6 +65,11 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 @media screen and (max-width: 1024px) {

@@ -21,11 +21,11 @@ export const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            {/* <article className="about__card">
               <BsAward className="about__icon"/>
-              <h5>Experience</h5>
+              <h5>skills</h5>
               <small>Some years Working</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <SiLeetcode className="about__icon"/>
