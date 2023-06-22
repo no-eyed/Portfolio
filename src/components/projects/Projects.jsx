@@ -191,15 +191,6 @@ const Projects = () => {
       <div className="container projects__container">
         
         {/* <div ref={frontendRef} className='container projects__frontend closed'> */}
-          {/* <article className='projects__item'>
-            <div className='projects__item-image'>
-              <img src={Portfolio} alt=""></img>*
-            </div>
-            <h3>Portfolio</h3>
-            <div className='projects__item-cta'>
-              <a href='https://github.com/no-eyed/Portfolio' className='btn' target="_blank">GitHub</a>
-            </div>
-          </article> */}
           {
             FrontendProjcts.map(({id, image, title, github, demo}) => {
               return(
