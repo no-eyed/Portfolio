@@ -115,8 +115,8 @@ const AIProjects = [
     id: 1,
     image: AI1,
     title: 'Fire Detector',
-    github: 'https://github.com/no-eyed/DevOpsOnFire',
-    demo: 'https://firedetector123.onrender.com'
+    github: 'https://github.com/no-eyed/Fire-Detection',
+    demo: 'https://fire-detection.onrender.com'
   }
   // {
   //   id: 2,
